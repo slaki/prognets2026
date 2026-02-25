@@ -43,5 +43,10 @@ Source: https://gitlab.ethz.ch/nsg/public/adv-net-2022-exercises/-/tree/main
 
 - [Reflector](./01-reflector)
 - [Repeater](./02-repeater)
+
+# Week 2
 - [Layer 2 Switch - Simple](./03-l2-basic-forwarding)
+- [Layer 2 Switch - Flooding on all ports](./03-l2-flooding-flood-all)
+- [Layer 2 Switch - Flooding on other ports only](./03-l2-flooding-flood-others)
+- [Layer 2 Switch - MAC Learning using CPU port mirroring](./04-l2-learning-cpu-copy)
 
