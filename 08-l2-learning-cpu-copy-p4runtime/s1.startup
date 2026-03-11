@@ -1,0 +1,6 @@
+p4c  --p4runtime-files l2_learning_copy_to_cpu.p4info.txt l2_learning_copy_to_cpu.p4
+
+ip link add cpu type dummy
+ip link set cpu up
+
+simple_switch_grpc --no-p4 -i 1@eth0 -i 2@eth1 -i 3@eth2 -i 4@eth3 -i 5@cpu &
